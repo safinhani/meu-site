@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(180deg, #2b003f, #6a2ca0);
+    color: #f5e9ff;
+    min-height: 100vh;
+}
+
+/* HEADER */
+header {
+    padding: 20px;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffd6ff;
+    text-shadow: 0 0 12px #c77dff;
+}
+
+/* MENU */
+nav {
+    margin-top: 60px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #f5e9ff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd6ff;
+}
+
+/* CONTEÚDO */
+main {
+    padding: 40px;
+}
+
+.topo {
+    text-align: center;
+}
+
+/* CONTATO */
+.contato {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.contato a {
+    color: #ffd6ff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* GALERIA */
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.card {
+    width: 230px;
+    background: rgba(255,255,255,0.1);
+    padding: 15px;
+    border-radius: 12px;
+    transition: transform 0.4s, box-shadow 0.4s;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #c77dff;
+}
+
+.preco {
+    margin-top: 8px;
+    font-weight: bold;
+    color: #ffd6ff;
+}
+
+/* IMAGEM COM*
